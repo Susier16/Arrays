@@ -7,11 +7,11 @@ const filas = 20;
 
 //Bucle principal de 19 a 0
 for(let i = filas - 1; i >= 0; i--){
-    //Bucle anidado para poner espacios antes del símbolo
+    //Bucle anidado para poner los símbolos
     for(let j = 0; j < i; j++){
         resultado += simbolo;
     }
-    //Añade elm símbolo y salta de línea
+    //Añade el símbolo y salta de línea
     resultado += simbolo + "\n";
 
 }

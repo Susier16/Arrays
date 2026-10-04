@@ -7,7 +7,7 @@ const filas = 20;
 
 //Bucle principal de 0 a 19
 for(let i = 0; i < filas; i++){
-    //Bucle anidado para poner espacios antes del símbolo
+    //Bucle anidado para poner los símbolos
     for(let j = 0; j < i; j++){
         resultado += simbolo;
     }
