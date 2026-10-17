@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Práctica de JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 650px;
+      margin: 40px auto;
+      line-height: 1.6;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    .tarjeta {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 4px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+    .aviso {
+      background-color: #e9ecef;
+      padding: 10px 15px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Panel de Prácticas</h1>
+  <p class="aviso">
+    💡 Abre la consola del navegador pulsando <strong>F12</strong> para ver las salidas.
+  </p>
+
+  <div class="tarjeta">
+    <h2>Práctica 1: 50 Combinaciones</h2>
+    <p>Genera 50 combinaciones de 6 números (del 1 al 49 sin repetir).</p>
+    <button onclick="ejecutarEjercicio1()">Ejecutar Práctica 1 en Consola</button>
+  </div>
+
+  <div class="tarjeta">
+    <h2>Práctica 2: Frecuencias de Math.random</h2>
+    <p>Calcula 10.000 números al azar del 1 al 10 y cuenta sus repeticiones.</p>
+    <button onclick="ejecutarEjercicio2()">Ejecutar Práctica 2 en Consola</button>
+  </div>
+
+  <!-- Enlazamos los dos archivos JS externos -->
+  <script src="ejercicio1.js"></script>
+  <script src="ejercicio2.js"></script>
+</body>
+</html>
